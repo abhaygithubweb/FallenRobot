@@ -24,7 +24,7 @@ class Config(object):
 
     OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
 
-    SUDOERS = list(map(int, getenv("SUDOERS", "").split()))
+    AUTH = list(map(int, getenv("AUTH", "").split()))
     
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
